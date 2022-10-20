@@ -1,0 +1,12 @@
+:root{
+    --main-font: 'Lato', sans-serif;
+    --main-color: rgb(51, 122, 183);
+    --main-colorSecond: rgb(0, 74, 97);
+    --off-color: rgb(211, 241, 241);
+    --default-borders: 3px solid var(--main-color);
+    --btn-borders: 2px var(--main-color) solid;
+    --font-color: rgb(32, 180, 221);
+    --bkg-color-main: rgba(159, 218, 231);
+    };
+    $tabletWidth: 320px;
+$desktopWidth: 768px;

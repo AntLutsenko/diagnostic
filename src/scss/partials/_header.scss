@@ -1,0 +1,85 @@
+@import './loginForm';
+
+.body{
+  margin: auto;
+  max-width: 1200px;
+  min-width: 600px;
+padding: 0;
+overflow:auto
+
+}
+.header-conteiner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12%;
+  margin-bottom: 50px;
+}
+.header{
+  font-family: var(--main-font);
+  background-color: var(--off-color);
+  border: var(--default-borders);
+  
+  &__logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: var(--btn-borders);
+    border-radius: 2px;
+  }
+  &__logo--icon{
+    max-width: 50px;
+    max-height: 50px;
+    margin: 2px;
+  }
+  &__logo--text{
+    color: var(--main-colorSecond);
+    margin: 2px;
+  }
+}
+.logo-container{
+  margin: 10px 0 10px 15px;
+}
+
+.button-container{
+  display: flex;
+  margin: 0px 15px 0px 0px;
+}
+.btn{
+  height: 36px;
+  color: black;
+  cursor: pointer;
+  background-color: var(--font-color);
+  border: var(--btn-borders);
+  border-radius: 5px;
+  width: 10vw;
+  margin: 5px;
+  min-width: 120px;
+  }
+
+.search{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin: 10px 0 0 -18px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;
+  padding: 5px 0 5px 0;
+  border-top: none;
+}
+
+.filter-input{
+  height: 34px;
+}
+
+
+@media (min-width: $tabletWidth) {
+
+  .filter-input{
+    flex-grow: 2;
+  }
+  
+}
+
+@media (min-width: $desktopWidth) {}

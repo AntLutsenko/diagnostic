@@ -1,0 +1,97 @@
+.main{
+background-color:var(--bkg-color-main);
+box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    min-height: 15em;
+}
+.desk{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+   &__empty{
+        display: block;
+        font: 1.2em var(--main-font), sans-serif;
+    }
+
+    &__visit-form{
+     flex-direction: column;
+    display: flex;
+    background-color: rgb(243, 234, 234);
+    margin: 5px;
+    }
+}
+.hiden{
+    display: none;
+  }
+.cont{
+    margin: 15px;
+    display: flex;
+flex-direction: column;
+}
+
+.client-visit-card {
+    min-width: 200px;
+    background-color: rgb(0, 0, 0, 0.1);
+    border: 0.5px solid black;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    &__list{margin-bottom: 15px;}
+    &__element{
+        width: 100%;
+        border-bottom: 0.5px solid black;
+        margin: 3px 0;
+    }
+    &__btn{cursor: pointer;
+        margin-bottom: 10px;
+        background-color: var(--font-color);
+    border: var(--btn-borders);
+    border-radius: 5px;}
+}
+
+.extra-field{
+    display: flex;
+    flex-direction: column
+}
+
+
+
+.form-select{
+    padding: 0;
+}
+.form-label{
+    margin-top: 5px;
+
+}
+.form-control{
+    width:100% ;
+     padding: 0px; 
+    font-size: 20px; 
+    font-weight: 150; 
+    line-height: 1;
+    margin-bottom: 5px;
+  
+}
+.btn-form{
+    display: block;
+margin: 5px auto 2px auto
+}
+
+.visit-form{
+&__header{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+&__modal-title{
+    padding: 5px;
+}
+}

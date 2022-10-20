@@ -1,0 +1,45 @@
+.modal-content {
+    position: absolute;
+    border: 1px solid black;
+    z-index: 1051;
+}
+
+.mb-3{
+    padding: 1rem 1rem 0;
+}
+
+.modal-footer{
+    justify-content: center;
+}
+  .modal-wrapper{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.3764705882);
+    z-index: 10;
+}
+
+.show-pass{
+    position: absolute;
+    bottom: 83px;
+    right: 18px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #a6a0ae;
+    cursor: pointer;
+}
+
+.modal-dialog{
+    display: flex;
+}
+
+.eror-message{
+    width: 100%;
+    padding: 1% 6.4%;
+    background-color: red;
+    margin: auto;
+    text-align: center;
+}
